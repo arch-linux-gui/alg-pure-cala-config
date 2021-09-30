@@ -2,6 +2,7 @@
  *
  *   SPDX-FileCopyrightText: 2015 Teo Mrnjavac <teo@kde.org>
  *   SPDX-FileCopyrightText: 2018 Adriaan de Groot <groot@kde.org>
+ *   SPDX-FileCopyrightText: DemonKiller of Arch Linux GUI
  *   SPDX-License-Identifier: GPL-3.0-or-later
  *
  *   Calamares is Free Software: see the License-Identifier above.
@@ -183,6 +184,22 @@ Presentation
         }
     }
 
+        Slide
+    {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+
+        Image
+        {
+            id: background10
+            source: "slide10.png"
+            width: parent.width; height: parent.height
+            horizontalAlignment: Image.AlignCenter
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
+        }
+    }
 
     // When this slideshow is loaded as a V1 slideshow, only
     // activatedInCalamares is set, which starts the timer (see above).
