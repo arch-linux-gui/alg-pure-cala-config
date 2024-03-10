@@ -94,3 +94,24 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 #licenseItem {  }
 #licenseItemFullText {  }
 */
+
+/* ALG Calamares Theme */
+
+
+
+#aboutButton {
+	background-color: #31363b;
+	font: 10px;
+	color: #ffffff;
+	height: 32px;
+    	padding: 0px;
+	border: none;
+}
+
+#aboutButton:pressed {
+	color: #3362b9;
+}
+
+#aboutButton:hover {
+	color: #3fa5bf;
+}
