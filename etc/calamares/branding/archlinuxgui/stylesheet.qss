@@ -99,19 +99,40 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 
 
 
+/* ALG Cala Theme */
+
+
+/* # BUTTONS GENERAL */
+#debugButton {
+	background-color: #31363b;
+	font: 10px;
+	color: #ffffff;
+	height: 32px;
+    padding: 5px;
+	border: none;
+}
+
+#debugButton:pressed {
+	color: #00aeff;
+}
+
+#debugButton:hover {
+	color: #00aeff;
+}
+
 #aboutButton {
 	background-color: #31363b;
 	font: 10px;
 	color: #ffffff;
 	height: 32px;
-    	padding: 0px;
+    padding: 5px;
 	border: none;
 }
 
 #aboutButton:pressed {
-	color: #3362b9;
+	color: #00aeff;
 }
 
 #aboutButton:hover {
-	color: #3fa5bf;
+	color: #00aeff;
 }
